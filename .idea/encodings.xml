@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaocommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaomanager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaomanager/taotaomanagermapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaomanager/taotaomanagerpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaomanager/taotaomanagerservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaomanager/taotaomanagerweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaoorder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaoportal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaorest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaosearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaosso" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

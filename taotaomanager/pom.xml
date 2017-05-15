@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>taotao-parent</artifactId>
+        <groupId>com.huhavefun</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>taotao-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>taotaomanagerpojo</module>
+        <module>taotaomanagermapper</module>
+        <module>taotaomanagerservice</module>
+        <module>taotaomanagerweb</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.huhavefun</groupId>
+            <artifactId>taotao-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <!-- 配置插件 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8081</port>
+                    <path>/</path>
+                    <url>http://119.29.217.159:8081/manager/text</url>
+                    <username>tomcat</username>
+                    <password>tomcat0822</password>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
