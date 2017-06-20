@@ -44,4 +44,5 @@
 </modules>
 ```
 1. 减少表的管理查询，使用冗余解决表的关联问题
+
 ![](http://upload-images.jianshu.io/upload_images/3245878-f077c65bf04d3035.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
