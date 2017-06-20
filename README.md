@@ -8,6 +8,9 @@
 * Nginx
 * Jackson&Jsonp
 * httpclient
+## 系统架构
+
+![](http://upload-images.jianshu.io/upload_images/3245878-2b66f76006a129ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 系统模块
 1. manager
  
